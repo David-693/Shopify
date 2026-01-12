@@ -83,7 +83,8 @@
     /* border: thin solid red; */
     width: 100%;
     padding: 80px 0px;
-    background-color: #F7F9FF;
+    /* background-color: #F7F9FF; */
+    background-color: #ffffff;
  }
 
  .control {
@@ -179,9 +180,10 @@
  }
 
  .g-col-6{
-   /* border: thin solid #E5E7EB; */
-   border: thin solid red;
-   width: 34%;
+   border: thin solid #E5E7EB;
+   /* border: thin solid red; */
+   /* width: 34%; */
+   width: 100%;
    height: 340px;
    border-radius: 10px;
  }
@@ -245,7 +247,7 @@
  .merchant {
     border: thin solid #D9F6FF;
     width: 88%;
-    margin: 0px auto;
+    margin: 20px auto;
     border-radius: 5px;
     background-color: #D9F6FF;
 
@@ -285,13 +287,39 @@
       grid-template-columns: auto auto;
     }
 
+    .g-col-6{
+      height: 280px;
+    }
+
+    .g-h1{
+      width: 90%;
+      margin: 20px auto;
+    }
+
+    .g-p{
+      width: 90%;
+    }
+
+    .b-t-n{
+      width: 90%;
+    }
+
+    .btn-1{
+      margin-top: 30px;
+    }
+
+    .btn-2{
+      margin-top: 30px;
+    }
+
+    .btn-3{
+      margin-top: 30px;
+    }
 
     .merchant {
        width: 94%;
-       margin: 0px auto;
+       margin: 20px auto;
     }
-
-    
  }
 
  @media(max-width:900px) {
@@ -299,6 +327,30 @@
        font-size: 2.5em;
        font-weight: 600;
     }
+
+    .grid{
+      display: grid;
+      grid-template-columns: auto;
+    }
+
+    .g-col-6{
+      height: 250px;
+    }
+
+    .g-h1{
+      width: 92%;
+      font-size: 1.5em;
+    }
+
+    .g-p{
+      width: 92%;
+      font-size: 1em;
+    }
+
+    .b-t-n{
+      width: 92%;
+    }
+
 
     .merchant p {
        /* border: thin solid red; */
@@ -395,7 +447,7 @@
  
 
  .footer-left {
-    border: thin solid red;
+    /* border: thin solid red; */
     /* width: 100%; */
     display: flex;
     align-items: center;
@@ -409,7 +461,7 @@
  }
 
  .footer-right {
-    border: thin solid red;
+    /* border: thin solid red; */
     /* width: 100%; */
     display: flex;
     gap: 1.8em;
@@ -439,7 +491,7 @@
 
  @media(max-width:900px){
    .foot{
-      border: thin solid red;
+      /* border: thin solid red; */
       width: 100%;
       margin: 0px auto;
       display: grid;
@@ -455,14 +507,14 @@
    }
 
    .footer-left{
-      border: thin solid red;
+      /* border: thin solid red; */
       width: 80%;
       margin: 0px auto;
       flex-direction: column;
    }
 
    .footer-right{
-      border: thin solid red;
+      /* border: thin solid red; */
       flex-direction: row;
       gap: 1em;
    }
