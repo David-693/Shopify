@@ -399,6 +399,83 @@
     margin-top: 20px;
  }
 
+ .g-r-i-d{
+   /* border: thin solid red; */
+   margin-bottom: 40px;
+ }
+
+ 
+
+ .g-col-4{
+   /* border: thin solid red; */
+   width: 100%;
+   height: 260px;
+ }
+
+ .g-h2{
+   /* border: thin solid red; */
+   width: 100%;
+   margin: 20px auto;
+   display: flex;
+   text-align: start;
+   font-size: 1.6em;
+   color: white;
+   /* font-weight: 500; */
+ }
+
+ .g-sp{
+   /* border: thin solid red; */
+   width: 100%;
+   margin: 0px auto;
+   display: flex;
+   text-align: start;
+   font-size: 1.15em;
+   color: white;
+   /* font-weight: 400; */
+ }
+
+ .b-t{
+   /* border: thin solid red; */
+   width: 100%;
+   margin: 0px auto;
+   display: flex;
+   justify-content: start;
+ }
+
+ .bt-1{
+   margin-top: 50px;
+   color: white;
+ }
+
+ .bt-2{
+   margin-top: 50px;
+   color: white;
+ }
+
+ .bt-3{
+   margin-top: 20px;
+ }
+
+ .g-a{
+   /* border: thin solid red; */
+   width: 100%;
+   margin: 0px auto;
+   display: flex;
+   text-align: start;
+   font-size: 1.2em;
+   color: white;
+   font-weight: 400;
+ }
+
+
+
+
+
+
+
+
+
+
 
  /* ---media query--- */
  @media(max-width:1200px) {
@@ -417,6 +494,35 @@
        /* border: thin solid red; */
        /* width: 90%; */
     }
+
+    .g-r-i-d{
+      display: grid;
+      grid-template-columns: auto auto auto;
+    }
+
+    .g-col-4{
+      height: 300px;
+    }
+
+    .g-sp{
+      font-size: 1em;
+    }
+ }
+
+ @media(max-width:1147px){
+   .bt-1{
+      margin-top: 80px;
+   }
+
+   .bt-2{
+      margin-top: 80px;
+   }
+ }
+
+ @media(max-width:1020px){
+   .bt-1{
+      margin-top: 50px;
+   }
  }
 
  @media(max-width:900px) {
@@ -427,6 +533,56 @@
     .resources-header p {
        width: 96%;
     }
+
+    .g-r-i-d{
+      display: grid;
+      grid-template-columns: auto;
+    }
+
+    .g-col-4{
+      height: 160px;
+    }
+
+    .g-h2{
+      font-size: 1.2em;
+      font-weight: 500;
+    }
+
+     .bt-1{
+      margin-top: 16px;
+   }
+
+    .bt-2{
+      margin-top: 16px;
+   }
+
+    .bt-3{
+      margin-top: 16px;
+   }
+ }
+
+ @media(max-width:640px){
+   .g-r-i-d{
+      width: 95%;
+   }
+ }
+
+ @media(max-width:436px){
+   .g-h2{
+      margin: 15px auto;
+   }
+
+   .btn-1{
+      margin-top: 10px;
+   }
+
+   .btn-2{
+      margin-top: 30px;
+   }
+
+   .btn-3{
+      margin-top: 0px;
+   }
  }
 
 
